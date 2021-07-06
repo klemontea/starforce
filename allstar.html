@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starforce :: All Star</title>
+    <link rel="stylesheet" type="text/css" href="css/planet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Source+Code+Pro:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background animation -->
+    <video autoplay muted loop id="video_background">
+        <source src="video/milkyway.mp4" type="video/mp4">
+    </video>
+
+    <!-- Background click noise-->
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+
+    <!-- Back to top button -->
+    <div class="anchor">
+        <a href="#heading">Top</a>
+    </div>
+
+    <!-- Heading start here -->
+    <nav id="heading">
+        <header id="logo">
+            <a href="index.html">
+                <h1>StarForce</h1>
+            </a>
+        </header>
+
+        <ul class="item">
+            <div class="dropdown">
+                <li class="nav_item">
+                    <a href="#">Activities</a>
+                </li>
+                <div class="dropdown-content">
+                    <article class="allstar_drop">
+                        <header>
+                            <h5>AllStar</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Rocket Man</a>
+                        <a href="#">Space Race</a>
+                    </article>
+                    <article class="waterworld_drop">
+                        <header>
+                            <h5>Waterworld</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Underwater Tour</a>
+                        <a href="#">Water Dance</a>
+                    </article>
+                    <article class="kryptomine_drop">
+                        <header>
+                            <h5>Kryptomine</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Stone Digger</a>
+                        <a href="#">Stone Museum</a>
+                    </article>
+                </div>
+            </div>
+            <li class="nav_item">
+                <a href="">News</a>
+            </li>
+            <li class="nav_item">
+                <a href="">Pricing</a>
+            </li>
+            <li class="nav_item">
+                <a href="faq.html">FAQ</a>
+            </li>
+        </ul>
+
+        <ul class="access">
+            <li class="nav_item">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="nav_item">
+                <a href="register.html">Register</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="allstarheading">
+            <article class="title">
+                <h1>All Star</h1>
+            </article>
+
+            <article class="breadcrumb">
+                <p><a href="index.html">Home</a> / <strong id="current">All Star</strong></p>
+            </article>
+        </section>
+
+        <section id="about">
+
+            <header>
+                <h2>CITY OF LIGHT</h2>
+            </header>
+
+            <!-- Carousel start -->
+            <div class="carousel">
+                <div class="mySlides fade">
+                    <img src="images/allstar/intro1_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/allstar/intro2_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/allstar/intro3_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/allstar/intro4_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/allstar/intro5_900.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <p>
+                This planet, also called The City of Light, is the most populated one among other
+                planets. It also the only touchpoint from any incoming spaceship from Earth. It also a
+                place where visitors could stay in hotel. It is the heart of space civilizations which could take place
+                in future. All Star resembles like Earth and consists of 60% water and 40% land. Oxygen exists in this
+                place, and also other geographical entities like mountain, tree, lake, and hill. As a
+                modern city, All Star has lots of skycrapper building, places, and fun or even a new one
+                that you can't find on Earth.
+            </p>
+        </section>
+
+        <section id="activity">
+            <header>
+                <h2>OUR ACTIVITIES</h2>
+            </header>
+
+            <div class="container">
+                <article id="act1">
+                    <header>
+                        <h3>Space Race</h3>
+                    </header>
+                    <img src="images/allstar/spacerace.jpg" alt="A spidometer">
+                    <nav class="expand-button">
+                        <a href="activity.html">More</a>
+                    </nav>
+                    <p>
+                        Do you have what it takes to become the fastest human alive? Why don't you
+                        give it a shot with this game? Race among other participants in space-loop
+                        circuit with our space supercar. We also hold competition for participants
+                        and the winner will get a reward.
+                    </p>
+                </article>
+
+                <article id="act2">
+                    <header>
+                        <h3>Rocket Man</h3>
+                    </header>
+                    <img src="images/allstar/rocketman.jpg" alt="A blue background with some rocket drawings">
+                    <nav class="expand-button">
+                        <a href="activity.html">More</a>
+                    </nav>
+                    <p>
+                        Do you like to fly? Do you want to feel like an Iron Man? Or maybe you want
+                        to view the city from sky freely. Try this game if you say yes to either of
+                        those questions? Using our zero-emission jetpack technology, you can fly
+                        with our shoes and explore nearby terrrains.
+                    </p>
+                </article>
+            </div>
+
+        </section>
+
+        <section id="specs">
+            <header>
+                <h2>SPECIFICATIONS</h2>
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <dl>
+                        <dt>Mass:</dt>
+                        <dd>12,7 x 10<sup>24</sup> kg</dd>
+                        <dt>Radius:</dt>
+                        <dd>8,576 km</dd>
+                        <dt>Surface Area:</dt>
+                        <dd>5.3 x 10<sup>8</sup> km<sup>2</sup></dd>
+                    </dl>
+                </div>
+
+                <div class="row">
+                    <dl>
+                        <dt>Density:</dt>
+                        <dd>11.11 g/cm<sup>3</sup></dd>
+                        <dt>Surface Temperature:</dt>
+                        <dd>19&#176;C</dd>
+                        <dt>Distance from Sun:</dt>
+                        <dd>415,643,222 km</dd>
+                    </dl>
+                </div>
+
+                <video width="20%" autoplay muted loop>
+                    <source src="video/specs.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="map">
+            <header>
+                <h2>MAP</h2>
+            </header>
+
+            <ul id="allstar_map">
+                <li class="landing_p">
+                    <a href="#">Space Airport</a>
+                </li>
+                <li class="race_p">
+                    <a href="#">Space Race</a>
+                </li>
+                <li class="rocket_p">
+                    <a href="#">Rocket Man</a>
+                </li>
+                <li class="capital_p">
+                    <a href="#">Capital</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="leftFoot">
+            <header>
+                <h3>StarForce</h3>
+            </header>
+
+            <ul>
+                <li>
+                    <a href="">Terms</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="midFoot">
+            <p>&copy; 2070-2100 | www.starforce.com</p>
+        </section>
+
+        <section id="rightFoot">
+            <header>
+                <h4>Follow Us for Latest News</h4>
+            </header>
+
+            <ul>
+                <li>
+                    <a href="https://telegram.org/" target="_blank"><img src="images/media/telegram.png"
+                            alt="telegram logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/media/facebook.png"
+                            alt="facebook logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/media/instagram.png"
+                            alt="instagram logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/media/twitter.png"
+                            alt="twitter logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/media/youtube.png"
+                            alt="youtube logo" width="40px" height="40px"></a>
+                </li>
+            </ul>
+
+        </section>
+    </footer>
+    <script src="js/planet.js"></script>
+</body>
+
+</html>

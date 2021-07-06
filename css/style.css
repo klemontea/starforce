@@ -1,0 +1,224 @@
+/* Reset format before starting */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background video */
+#video_background {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -999;
+}
+
+body {
+    font-family:  'Audiowide', 'Bangers', 'Source Code Pro', cursive, monospace, sans-serif;
+    line-height: 2;
+    letter-spacing: .15em;
+    color: silver;
+}
+
+/* Main start */
+/* Heading */
+section.main_heading {
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 3em;
+}
+
+section.main_heading p {
+	font-size: .6em;
+}
+
+/* Heading */
+.home_planets {
+	font-size: 1em;
+	margin-top: 3em;
+	color: silver;
+}
+
+.home_planets header {
+	background-color: #7b337d;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.home_planets .container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3em;
+}
+
+.home_planets article {
+	width: 30%;
+	text-align: center;
+}
+
+.home_planets img {
+	margin-top: 2.5em;
+	width: 70%;
+}
+
+/* About */
+.home_about {
+	font-size: 1em;
+	margin-top: 3em;
+}
+
+.home_about header {
+	background-color: #7b337d;
+	border-radius: 5px;
+	text-align: center;
+	margin: 2em 0;
+}
+
+.home_about img {
+	float: right;
+	margin: 1em;
+	width: 40%;
+}
+
+.home_about p {
+	margin-left: 1em;
+	text-align: justify;
+}
+
+.home_about img:last-of-type {
+	width: 40%;
+	float: left;
+	margin: 3em 1em;
+}
+
+.home_about p:last-of-type {
+	clear: right;
+}
+
+/* Explore */
+.home_explore {
+	clear: left;
+	margin-top: 3em;
+}
+
+.home_explore header {
+	background-color: #7b337d;
+	border-radius: 5px;
+	text-align: center;
+	margin: 2em 0;
+}
+
+.home_explore img {
+	float: right;
+	width: 40%;
+	margin: 1em;
+}
+
+.home_explore p {
+	text-align: justify;
+	margin: 0 1em;
+}
+
+/* Spaceship */
+.home_spaceship {
+	clear: right;
+	margin-top: 3em;
+}
+
+.home_spaceship header {
+	background-color: #7b337d;
+	border-radius: 5px;
+	text-align: center;
+	margin: 2em 0;
+}
+
+.home_spaceship img {
+	float: left;
+	width: 40%;
+	margin: 1em;
+}
+
+.home_spaceship p {
+	text-align: justify;
+	margin: 0 1em;
+}
+
+/* Accomodation */
+.home_accom {
+	clear: left;
+	margin-top: 3em;
+}
+
+.home_accom header {
+	background-color: #7b337d;
+	border-radius: 5px;
+	text-align: center;
+	margin: 2em 0;
+}
+
+.home_accom img {
+	float: right;
+	width: 40%;
+	margin: 1em;
+}
+
+.home_accom p {
+	text-align: justify;
+	margin: 0 1em;
+}
+
+/* Footer */
+footer {
+	clear: right;
+    background-color: #210535;
+    display: flex;
+}
+
+#leftFoot, #rightFoot {
+    display: flex;
+}
+
+#leftFoot {
+    margin-right: auto;
+}
+
+#leftFoot header {
+    margin: 1em;
+    font-size: 1.3em;
+}
+
+#leftFoot ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#rightFoot header {
+    margin: 1.5em 0;
+}
+
+#midFoot {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    font-size: .8em;
+}
+
+#rightFoot {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 2em;
+    align-items: center;
+}
+
+#rightFoot ul {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#rightFoot ul li {
+    list-style-type: none;
+    margin: 0 0.5em;
+}

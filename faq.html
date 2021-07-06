@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarForce :: Login</title>
+    <link rel="stylesheet" type="text/css" href="css/access.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Source+Code+Pro:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background animation -->
+    <video autoplay muted loop id="video_background">
+        <source src="video/milkyway.mp4" type="video/mp4">
+    </video>
+
+    <!-- Background click noise-->
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+
+    <!-- Heading start here -->
+    <nav id="heading">
+        <header>
+            <a href="index.html">
+                <h1>StarForce</h1>
+            </a>
+        </header>
+    </nav>
+
+    <main>
+        <section id="subheading">
+            <article class="title">
+                <h1>FAQ</h1>
+            </article>
+
+            <article class="breadcrumb">
+                <p><a href="index.html">Home</a> / <strong id="current">FAQ</strong></p>
+            </article>
+        </section>
+
+        <h2>References</h2>
+
+        <ul id="references">
+            <li>
+                Beachfront.[www.beachfrontbroll.com].Starry Night
+                Timelapse.Videvo.https://www.videvo.net/video/starry-night-timelapse/3954/
+            </li>
+            <li>
+                Skopje, Aco.Radar Overlay 1.Videvo.https://www.videvo.net/video/radar-overlay-1/4710/
+            </li>
+            <li>
+                Mixkit.Small electric glitch.Mixkit.https://mixkit.co/free-sound-effects/robot/?page=2
+            </li>
+            <li>
+                Lockard, Sam.(2014, February
+                5).planet.Flickr.https://www.flickr.com/photos/samlockard/12325204103/in/photolist-jM8TM2-duFh7z-2hRUfTj-MT9Zxf-66ScMM-ftUYsb-Czkduw-22mZ6E6-tpNTTc-fryumv-2jBb1yy-XBsxgf-L8pHvj-6MCiPM-LUd28e-2hvoMRb-9N46Te-4CzydM-JrZAJV-2kyY2K5-5Pr1DX-aL2P7p-86jwxc-6emCoA-8KzQL5-kkrMV-bPbirB-2kyXnnc-3Hkmf3-2PrqvJ-8zwD23-4oTd2S-5f33qX-8S6mEK-uGGGD-7kMVu7-66JCMV-vcpxT-9Rp1hJ-7sk8aJ-5oDj9x-4sd29T-6xoUoW-2aGyv-4uzt7E-2pWYg-diy4en-w595V9-9uaZLf-4q6ibm
+            </li>
+            <li>
+                Barto, El.(2016, September 21).Battlestar
+                Chelone.Flickr.https://www.flickr.com/photos/52907196@N07/29823291525/in/photolist-Mroaxt-2bTJNgN-2iMtxbQ-8Umu3Z-2iLC7c9-2baJMid-3VLRV5-2eKW2FH-doBV5n-yzU4aQ-MsjnV4-9rQ6UM-PTtD6U-pgfcG-dRRfW-dRRgM-9rT4UW-9rT5eu-9rQ7xa-a678T-2cLq8Lu-dMur81-xVCoDc-naammB-9FjvSm-q8uqj-yKmRPv-9rQ7de-atUNYJ-4y92Y6-nacD5S-Lp3Eih-yzXsyW-nuuWHe-a7Ckhf-Ei7yV7-2kNcnTs-24hVFjz-4HVefZ-umTP36-29mkum3-5mbWsV-a7zHrD-bMoudX-yA36SX-nCEwAi-7Hikb6-KjDPWW-rfgbfV-DnChru
+            </li>
+            <li>
+                connorwhitlock.(2009, March
+                11).planets.Flickr.https://www.flickr.com/photos/35046722@N04/3346684791/in/photolist-66JCMV-vcpxT-9Rp1hJ-7sk8aJ-5oDj9x-4sd29T-6xoUoW-2aGyv-4uzt7E-2pWYg-diy4en-w595V9-9uaZLf-4q6ibm-Gr8sh-zFHcn-6pTduN-8x3LF3-48t5DM-7fiQR8-8SiHp9-cJQERW-bm2MjD-3uAe5-bjpXAM-7KA3eJ-9gBqbU-2k5R9Ee-k5yc8-5cMthc-BGWbVp-b3wGaK-6VVQnX-5usoqL-CaZd-9JHMph-DzUBN6-DxKYku-ktqn1-8dpY4t-2j7iUca-7C3xgZ-db6peL-2kuLVeA-2kuLVzF-2kuGKHf-KqMBpA-9m3MZj-2j8iyuo-4ztURQ
+            </li>
+            <li>
+                sudarkoff.(2008, December 26).Planet
+                Water.Flickr.https://www.flickr.com/photos/sudarkoff/3139353866/in/photolist-5Mq1wN-4DTV1c-7upcGf-7cJ6B8-29WSam-4CDPfw-2VxT37-6H47BD-2h1vNEa-8JM8zu-8g5jcd-7cN23h-7B98mP-2j48Hnx-7cN2WC-agrERw-a1CbWH-5GGJdy-7cJ8h6-agrEL7-49V1BE-k2htTk-49V1w7-afZjez-a1unaq-Fv2vyT-7cJ6FB-7HnHGV-BPjmy-2j5Bbm6-2aREhYq-9xyLdU-UGgLkj-5q1CXa-7cN3GS-2kSWpSG-7cN13S-4JN1Lq-9RACQp-qJroJJ-7QaMY5-2jevcXr-2j5heZG-48kCPw-4xxZnm-7cJ6MP-4D4RhX-5wstpa-2khe1f4-dLf6Zp
+            </li>
+            <li>
+                CharlotteBelladonna.(2020, March 10).Space
+                Station.Flickr.https://www.flickr.com/photos/186968761@N05/49643941557/in/photolist-2iCSbfR-ToEj4F-2kVRC8P-egm86g-2jKhmec-2exaurb-zHeqQr-6nrt4Q-2e9RJv1-68R9bM-7Xj2WP-8MEqrx-8MEs6Z-8MHym9-avNrH3-2kVxggZ-2k6LnCh-TLgG7L-552euR-2kVJDDE-2jhYoM3-ZEE8sF-2j5NLBH-5HoCA-2jrWKZ9-8MErQa-avNrAU-avKMQV-avKMFT-avKMP2-avKMSX-8MEsCa-DLCC3f-avNrEW-wkVE6n-7Xngod-7LTTxK-6bEE4E-SpLJF8-22QyDBJ-pAVCE9-2kRTkja-2kxojaC-2kdAvF5-NiFSpy-vGWF4r-KqKCzu-pTfLce-pAVHCL-92b8EV/
+            </li>
+            <li>
+                Wallpaper, HD.(2014, May
+                21).Universe.Flickr.https://www.flickr.com/photos/124803017@N06/14212597006/in/photolist-nDVgVY-nM2vSZ-rpzAn1-fkKeox-GUyGHK-EsocG-oGAPLc-81AWdP-6AoBg3-2gnnTBY-6N66RG-6N1VxP-6N1VuR-6MzE1b-6Mvtek-6MzE4f-6Mvtce-6MzDXJ-TwDMUL-6snY4X-yUCz4A-8UqC9q-Na3Kdj-89RQ1X-6snY7e-6snYbv-5v5sre-csoNSm-6ss7Zw-3Le4GW-671hFY-66W2PB-4WGxvg-7UoVax-d3snz5-bvdHm9-5sUJh3-8KYyau-RhLp7-6ss7Vu-2CVWS-9Gkep7-7SeHkk-8g56gJ-nptgid-6ss7Xw-bFAKw-sc6Svh-6snY3g-6ss7RN
+            </li>
+            <li>
+                Freepik.[Shuttle free
+                icon].https://www.flaticon.com/free-icon/shuttle_2285537?term=rocket&page=1&position=4&page=1&position=4&related_id=2285537&origin=search
+            </li>
+            <li>
+                Dylan.[Sunset sky over sea and lighthouse located on
+                hill].https://www.pexels.com/photo/sunset-sky-over-sea-and-lighthouse-located-on-hill-4417072/
+            </li>
+            <li>
+                Craig, Ollie.[Motorboats on sea water near coast in
+                daylight].https://www.pexels.com/photo/motorboats-on-sea-water-near-coast-in-daylight-5237968/
+            </li>
+            <li>
+                Hughes, Elle.[Lake Near Mountains].https://www.pexels.com/photo/lake-near-mountains-2546031/
+            </li>
+            <li>
+                Silver, Julius.[Cottages In The Middle Of
+                Beach].https://www.pexels.com/photo/cottages-in-the-middle-of-beach-753626/
+            </li>
+            <li>
+                Roseclay, Dominika.[Seashore during
+                Nighttime].https://www.pexels.com/photo/seashore-during-nighttime-977736/
+            </li>
+            <li>
+                Mikolas, Jiri.[Colorful longnose hawkfish near seaweed in
+                aquarium].https://www.pexels.com/photo/colorful-longnose-hawkfish-near-seaweed-in-aquarium-4593128/
+            </li>
+            <li>
+                Kamelev, Egor.[Macro Photography Of White
+                Coral].https://www.pexels.com/photo/macro-photography-of-white-coral-920163/
+            </li>
+            <li>
+                Photography, Chevanon.[Red Betta Fish].https://www.pexels.com/photo/red-betta-fish-1335971/
+            </li>
+            <li>
+                Pixabay.[Yellow Bokeh Lights].https://www.pexels.com/photo/yellow-bokeh-lights-220067/
+            </li>
+            <li>
+                Lopez, Borja.[Landscape Photography of Green and Brown
+                Palace].https://www.pexels.com/photo/landscape-photography-of-green-and-brown-palace-1059078/
+            </li>
+            <li>
+                Pasaric, Aleksandar.[View of Cityscape].https://www.pexels.com/photo/view-of-cityscape-325185/
+            </li>
+            <li>
+                Pixabay.[Lighted Roadside Rings].https://www.pexels.com/photo/asphalt-blur-car-city-290470/
+            </li>
+            <li>
+                Stupak, Kostiantyn.[Timelapse Cityscape Photography during Night
+                Time].https://www.pexels.com/photo/timelapse-cityscape-photography-during-night-time-599982/
+            </li>
+            <li>
+                aycan, ismail cem.[People Standing on Stage With
+                Lights].https://www.pexels.com/photo/people-standing-on-stage-with-lights-5610120/
+            </li>
+            <li>
+                alnamat, asim.[Selective Focus Photography of a
+                Speedometer].https://www.pexels.com/photo/selective-focus-photography-of-a-speedometer-360399/
+            </li>
+            <li>
+                Media, Kindel.[Black and White Stars
+                Illustration].https://www.pexels.com/photo/black-and-white-stars-illustration-7476134/
+            </li>
+            <li>
+                Vink, Peter de.[Lighted Cave].https://www.pexels.com/photo/lighted-cave-849385/
+            </li>
+            <li>
+                Ungaro, Francesco.[Ancient fort in mining site in mountainous
+                terrain].https://www.pexels.com/photo/ancient-fort-in-mining-site-in-mountainous-terrain-5592635/
+            </li>
+            <li>
+                Collections, Photo.[River and
+                Rockhills].https://www.pexels.com/photo/canyon-daylight-environment-geology-213979/
+            </li>
+            <li>
+                Pixabay.[White Stone].https://www.pexels.com/photo/white-stone-56030/
+            </li>
+            <li>
+                Lew, Jonny.[Closeup Photo of Purple
+                Gemstones].https://www.pexels.com/photo/closeup-photo-of-purple-gemstones-1121123/
+            </li>
+            <li>
+                Luo, Mitchell.[Surface Of Land].https://www.pexels.com/photo/surface-of-land-3707669/
+            </li>
+            <li>
+                ESCO, Weir.[Bucket of mining loader on ground on break
+                time].https://www.pexels.com/photo/bucket-of-mining-loader-on-ground-on-break-time-3906748/
+            </li>
+            <li>
+                Hallsworth, Amelia.[Brown and White Floral Padded
+                Chair].https://www.pexels.com/photo/brown-and-white-floral-padded-chair-5461583/
+            </li>
+            <li>
+                Nilov, Mikhail.[Person In Blue Space
+                Suit].https://www.pexels.com/photo/person-in-blue-space-suit-7709019/
+            </li>
+            <li>
+
+            </li>
+
+        </ul>
+    </main>
+
+</body>
+
+</html>

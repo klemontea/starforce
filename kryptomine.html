@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starforce :: Kryptomine</title>
+    <link rel="stylesheet" type="text/css" href="css/planet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Source+Code+Pro:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background animation -->
+    <video autoplay muted loop id="video_background">
+        <source src="video/milkyway.mp4" type="video/mp4">
+    </video>
+
+    <!-- Background click noise-->
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+
+    <!-- Back to top button -->
+    <div class="anchor">
+        <a href="#heading">Top</a>
+    </div>
+
+    <!-- Heading start here -->
+    <nav id="heading">
+        <header id="logo">
+            <a href="index.html">
+                <h1>StarForce</h1>
+            </a>
+        </header>
+
+        <ul class="item">
+            <div class="dropdown">
+                <li class="nav_item">
+                    <a href="#">Activities</a>
+                </li>
+                <div class="dropdown-content">
+                    <article class="allstar_drop">
+                        <header>
+                            <h5>AllStar</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Rocket Man</a>
+                        <a href="#">Space Race</a>
+                    </article>
+                    <article class="waterworld_drop">
+                        <header>
+                            <h5>Waterworld</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Underwater Tour</a>
+                        <a href="#">Water Dance</a>
+                    </article>
+                    <article class="kryptomine_drop">
+                        <header>
+                            <h5>Kryptomine</h5>
+                        </header>
+                        <hr>
+                        <a href="#">Stone Digger</a>
+                        <a href="#">Stone Museum</a>
+                    </article>
+                </div>
+            </div>
+            <li class="nav_item">
+                <a href="">News</a>
+            </li>
+            <li class="nav_item">
+                <a href="">Pricing</a>
+            </li>
+            <li class="nav_item">
+                <a href="faq.html">FAQ</a>
+            </li>
+        </ul>
+
+        <ul class="access">
+            <li class="nav_item">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="nav_item">
+                <a href="register.html">Register</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="kryptoheading">
+            <article class="title">
+                <h1>KRYPTOMINE</h1>
+            </article>
+
+            <article class="breadcrumb">
+                <p><a href="index.html">Home</a> / <strong id="current">Kryptomine</strong></p>
+            </article>
+        </section>
+
+        <section id="about">
+            <header>
+                <h2>SPACE MINING</h2>
+            </header>
+
+            <!-- Carousel start -->
+            <div class="carousel">
+                <div class="mySlides fade">
+                    <img src="images/kryptomine/intro1_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/kryptomine/intro2_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/kryptomine/intro3_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/kryptomine/intro4_900.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/kryptomine/intro5_900.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <p>
+                Kryptomine is not a planet for living because of its lack of water and plants.
+                However, it has lots of minerals that don't exist on Earth. These minerals are used
+                as materials for infrastructure, medical, vehicles, and weapon. Hence, this place
+                is only used as mining site and its only main activity. The land consists of
+                montains and there are only 3% of water. It is like a dry land. Weather is mostly
+                hot and only little oxygen detected. Therefore, visitors who come must wear an
+                astronaut suit.
+            </p>
+        </section>
+
+        <section id="activity">
+            <header>
+                <h2>OUR ACTIVITIES</h2>
+            </header>
+
+            <div class="container">
+                <article id="act1">
+                    <header>
+                        <h3>Stone Digger</h3>
+                    </header>
+                    <img src="images/kryptomine/stonedigger.jpg" alt="A spidometer">
+                    <nav class="expand-button">
+                        <a href="activity.html">More</a>
+                    </nav>
+                    <p>
+                        The advancement of space technology is due to the materials it is built in
+                        with. These materials are only exist in this planet, and you will see how it
+                        is extracted and processed. You will also get a chance to use one of our mining
+                        tools.
+                    </p>
+                </article>
+
+                <article id="act2">
+                    <header>
+                        <h3>Stone Museum</h3>
+                    </header>
+                    <img src="images/kryptomine/museum.jpg" alt="A blue background with some rocket drawings">
+                    <nav class="expand-button">
+                        <a href="activity.html">More</a>
+                    </nav>
+                    <p>
+                        The abundance of mineral resources in Kryptomine are not all explored yet.
+                        As we try to expand our mining coverge, it is a best idea to add each mineral in
+                        a museum so that visitor can view and study them. Currently, there are 70 types of minerals
+                        that you can view.
+                    </p>
+                </article>
+            </div>
+
+        </section>
+
+        <section id="specs">
+            <header>
+                <h2>SPECIFICATIONS</h2>
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <dl>
+                        <dt>Mass:</dt>
+                        <dd>8.3 x 10<sup>24</sup> kg</dd>
+                        <dt>Radius:</dt>
+                        <dd>5,122 km</dd>
+                        <dt>Surface Area:</dt>
+                        <dd>4.8 x 10<sup>8</sup> km<sup>2</sup></dd>
+                    </dl>
+                </div>
+
+                <div class="row">
+                    <dl>
+                        <dt>Density:</dt>
+                        <dd>9.71 g/cm<sup>3</sup></dd>
+                        <dt>Surface Temperature:</dt>
+                        <dd>35&#176;C</dd>
+                        <dt>Distance from Sun:</dt>
+                        <dd>297,123,654 km</dd>
+                    </dl>
+                </div>
+
+                <video width="20%" autoplay muted loop>
+                    <source src="video/specs.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="map">
+            <header>
+                <h2>MAP</h2>
+            </header>
+
+            <ul id="kryptomine_map">
+                <li class="landing_p">
+                    <a href="#">Space Airport</a>
+                </li>
+                <li class="digger_p">
+                    <a href="#">Stone Digger</a>
+                </li>
+                <li class="museum_p">
+                    <a href="#">Stone Museum</a>
+                </li>
+                <li class="hq_p">
+                    <a href="#">Headquarter</a>
+                </li>
+                <li class="mining1_p">
+                    <a href="#">Mining Site 1</a>
+                </li>
+                <li class="mining2_p">
+                    <a href="#">Mining Site 2</a>
+                </li>
+                <li class="mining3_p">
+                    <a href="#">Mining Site 3</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="leftFoot">
+            <header>
+                <h3>StarForce</h3>
+            </header>
+
+            <ul>
+                <li>
+                    <a href="">Terms</a>
+                </li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="midFoot">
+            <p>&copy; 2070-2100 | www.starforce.com</p>
+        </section>
+
+        <section id="rightFoot">
+            <header>
+                <h4>Follow Us for Latest News</h4>
+            </header>
+
+            <ul>
+                <li>
+                    <a href="https://telegram.org/" target="_blank"><img src="images/media/telegram.png"
+                            alt="telegram logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/media/facebook.png"
+                            alt="facebook logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/media/instagram.png"
+                            alt="instagram logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/media/twitter.png"
+                            alt="twitter logo" width="40px" height="40px"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="images/media/youtube.png"
+                            alt="youtube logo" width="40px" height="40px"></a>
+                </li>
+            </ul>
+
+        </section>
+    </footer>
+    <script src="js/planet.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarForce :: Register</title>
+    <link rel="stylesheet" type="text/css" href="css/access.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Source+Code+Pro:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background animation -->
+    <video autoplay muted loop id="video_background">
+        <source src="video/milkyway.mp4" type="video/mp4">
+    </video>
+
+    <!-- Background click noise-->
+    <audio id="click" src="audio/click.wav" preload="auto"></audio>
+
+    <!-- Heading start here -->
+    <nav id="heading">
+        <header>
+            <a href="index.html">
+                <h1>StarForce</h1>
+            </a>
+        </header>
+    </nav>
+
+    <main>
+        <section id="subheading">
+            <article class="title">
+                <h1>Register</h1>
+            </article>
+
+            <article class="breadcrumb">
+                <p><a href="index.html">Home</a> / <strong id="current">Waterworld</strong></p>
+            </article>
+        </section>
+
+
+        <div class="forms">
+            <h3>Welcome!</h3>
+            <p>Please enter your details to register</p>
+
+            <form action="" method="POST">
+                <div class="form-item">
+                    <label for="username">Username*: <span id="username_resp"></span></label>
+                    <div class="form-element">
+                        <input type="text" name="username" id="form_username" placeholder="Username" />
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email*: <span id="email_resp"></span></label>
+                    <div class="form-element">
+                        <input type="email" name="email" id="form_email" placeholder="Email" />
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="password">Password*: <span id="password_resp"></span></label>
+                    <div class="form-element">
+                        <input type="password" name="password" id="form_password" placeholder="Enter your password" />
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="password_ver">Retype Password*: <span id="passwordVer_resp"></span></label>
+                    <div class="form-element">
+                        <input type="password" name="password_ver" id="form_password_ver"
+                            placeholder="Retype your password" />
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label>Age Group: <span id="age_resp"></span></label>
+                    <div class="form-element">
+                        <label for="age-8">
+                            <input type="radio" id="age-8" name="age" value="8 or younger"> 8 or younger
+                        </label><br>
+                        <label for="age-9-17">
+                            <input type="radio" id="age-9-17" name="age" value="9-17"> 9-17
+                        </label><br>
+                        <label for="age-26-30">
+                            <input type="radio" id="age-26-30" name="age" value="18-30"> 18-30
+                        </label><br>
+                        <label for="age-30">
+                            <input type="radio" id="age-30" name="age" value="30 or older"> 30 or older
+                        </label>
+                    </div>
+                </div>
+
+                <p id="sum_response"></p>
+                <button type="submit">Register</button>
+                <p>Already have an account?<a href="login.html"> Login</a></p>
+
+            </form>
+        </div>
+        <script src="js/form.js"></script>
+    </main>
+</body>
+
+</html>
